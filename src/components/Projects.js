@@ -2,7 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/Movies.png";
 import projImg2 from "../assets/img/Portfolio.png";
-import projImg3 from "../assets/img/project-img3.png";
+import img1 from "../assets/img/img1.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -20,9 +20,9 @@ export const Projects = () => {
         imgUrl: projImg2,
       },
       {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: projImg3,
+        title: "Youtube clone Website",
+        link: "https://mytube1.netlify.app/",
+        imgUrl: img1,
       },
     ];
   
